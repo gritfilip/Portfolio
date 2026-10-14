@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Filip Aulin</title>
+
+    <link
+      id="favicon"
+      rel="icon"
+      type="image/png"
+      href="images/favicon-light.png"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Min CSS - efter Bootstrap så jag kan skriva över Bootstrap -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img id="nav-logo" src="images/favicon-light.png" alt="FA Logo" />
+          <span>Filip Aulin</span>
+        </a>
+
+        <!-- Hamburgarknapp -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Öppna navigationsmenyn"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menyn som fälls ner på mindre skärmar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-lg-3">
+            <!-- Hem -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">
+                Hem
+              </a>
+            </li>
+
+            <!-- Mina projekt -->
+            <li class="nav-item">
+              <a class="nav-link" href="projekt.html"> Mina projekt </a>
+            </li>
+
+            <!-- Om mig -->
+            <li class="nav-item">
+              <a class="nav-link active" href="om-mig.html"> Om mig </a>
+            </li>
+
+            <!-- Kontakta mig -->
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html"> Kontakta mig </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <section class="about-intro">
+          <div class="about-text">
+            <p>Vem är jag?</p>
+
+            <h1>Från luftflöden till kodflöden.</h1>
+
+            <p>
+              Hej! Jag heter Filip Aulin och studerar till Javautvecklare på
+              Grit Academy.
+            </p>
+
+            <p>
+              Efter flera år inom ventilation och projektledning har jag valt
+              att ta steget in i programmeringens värld.
+            </p>
+          </div>
+
+          <img src="images/Filip-Intro.JPG" alt="Bild på Filip" />
+        </section>
+
+        <section class="my-background">
+          <img src="images/ventilation.jpeg" alt="Filip ventilation" />
+          <div class="background-text">
+            <h2>Min bakgrund</h2>
+
+            <p>
+              Innan jag började studera till Javautvecklare arbetade jag i åtta
+              år inom ventilationsbranschen, varav fyra år som projektledare.
+            </p>
+
+            <p>
+              Under den tiden fick jag erfarenhet av problemlösning, ansvar och
+              samarbete. Det är kunskaper som jag tar med mig in i
+              programmeringen och min framtida karriär som utvecklare.
+            </p>
+          </div>
+        </section>
+
+        <section class="my-skills">
+          <div class="skills-text">
+            <h2>Vad jag lär mig</h2>
+
+            <p>
+              Just nu studerar jag till Javautvecklare på Grit Academy, där jag
+              får utveckla mina kunskaper inom programmering och problemlösning.
+            </p>
+
+            <p>
+              Utöver Java utforskar jag även webbutveckling med HTML, CSS,
+              JavaScript och Bootstrap. Jag tycker det är roligt att få
+              kombinera kod med design och se mina idéer bli till fungerande
+              webbplatser.
+            </p>
+
+            <div class="skills-container">
+              <div class="skills-slider">
+                <div class="skills card1">
+                  <img src="images/html5.svg" alt="HTML5" />
+                </div>
+
+                <div class="skills card2">
+                  <img src="images/css.svg" alt="CSS" />
+                </div>
+
+                <div class="skills card3">
+                  <img src="images/javascript.svg" alt="JavaScript" />
+                </div>
+
+                <div class="skills card4">
+                  <img src="images/java.svg" alt="Java" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="my-interests">
+          <div class="interests-text">
+            <h2>När jag inte kodar</h2>
+
+            <p>
+              På fritiden gillar jag att spela tv-spel, träna på gym och spela
+              golf.
+            </p>
+
+            <p>
+              Jag gillar framför allt tävlingsinriktade spel som Deadlock och
+              Dota, men Zelda-serien ligger mig extra varmt om hjärtat. Jag
+              spelar gärna tillsammans med min sambo och mina vänner.
+            </p>
+
+            <p>
+              Sommaren 2025 började jag spela golf och fastnade snabbt för
+              utmaningen. Golf är verkligen en sport som håller en ödmjuk, och
+              det är samtidigt ett roligt sätt att umgås med familj och vänner.
+            </p>
+
+            <p>
+              Som person skulle jag beskriva mig själv som glad, energirik och
+              driven. Jag gillar att ha något att utvecklas inom och nya
+              utmaningar att ta mig an.
+            </p>
+          </div>
+          <img src="images/golf.jpeg" alt="Filip golfar" />
+        </section>
+      </div>
+    </main>
+    <!-- Bootstrap footer -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 px-3 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+          </a>
+
+          <span class="footer-text"> © 2026 Filip Aulin </span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" target="_blank" href="#"
+              ><img src="images/github-icon-seeklogo.svg" alt="GitHub"
+            /></a>
+          </li>
+
+          <li class="ms-3">
+            <a class="text-body-secondary" target="_blank" href="#">
+              <img src="images/linkedin.svg" alt="LinkedIn"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+      <!-- Knapp för dark/light-->
+      <button id="theme-button" type="button" aria-label="Byt färgtema">
+        <svg
+          class="sun-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#1f1f1f"
+        >
+          <path
+            d="M565-395q35-35 35-85t-35-85q-35-35-85-35t-85 35q-35 35-35 85t35 85q35 35 85 35t85-35Zm-226.5 56.5Q280-397 280-480t58.5-141.5Q397-680 480-680t141.5 58.5Q680-563 680-480t-58.5 141.5Q563-280 480-280t-141.5-58.5ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"
+          />
+        </svg>
+
+        <svg
+          class="moon-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#1f1f1f"
+        >
+          <path
+            d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- Min JS -->
+    <script src="JS/theme.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
