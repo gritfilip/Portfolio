@@ -150,6 +150,13 @@ footer .text-body-secondary img:hover {
 
 body {
   background-color: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 h2 {
@@ -173,6 +180,7 @@ h2 {
   text-align: center;
   gap: 30px;
   padding: 20px;
+  margin-top: 150px;
   color: var(--text);
 }
 
@@ -447,7 +455,7 @@ h2 {
   object-fit: contain;
 }
 
-.contact-links img:hover{
+.contact-links img:hover {
   transform: scale(1.2);
 }
 
