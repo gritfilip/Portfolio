@@ -180,7 +180,6 @@ h2 {
   text-align: center;
   gap: 30px;
   padding: 20px;
-  margin-top: 150px;
   color: var(--text);
 }
 
@@ -513,6 +512,10 @@ h2 {
   .project,
   .contact {
     flex-direction: row;
+  }
+
+  .hero {
+      margin-top: 150px;
   }
 }
 
