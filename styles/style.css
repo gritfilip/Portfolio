@@ -384,6 +384,15 @@ h2 {
   padding: 20px;
 }
 
+.project-h2 {
+  color: var(--text);
+  background-color: var(--surface);
+  border: 5px solid var(--border);
+  width: fit-content;
+  margin: 40px auto 0;
+  padding: 20px;
+}
+
 .project-text {
   text-align: center;
   padding: 50px;
